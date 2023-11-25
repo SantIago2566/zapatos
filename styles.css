@@ -11,13 +11,13 @@ body{
     margin: 0 auto;
     max-width: 1200px;
     font-family: 'Lato';
-    color: #333;
+    color: #0f0e0ede;
 }
 
 .icon-cart{
     width: 40px;
     height: 40px;
-    stroke: #000;
+    stroke: #522727;
 }
 
 .icon-cart:hover{
@@ -45,8 +45,8 @@ header{
     top: 55%;
     right: 0;
 
-    background-color: #000;
-    color: #fff;
+    background-color: #d85353;
+    color: rgb(14, 13, 13);
     width: 25px;
     height: 25px;
 
@@ -186,8 +186,8 @@ header{
 .info-product button{
     border: none;
     background: none;
-    background-color: #000;
-    color: #fff;
+    background-color: rgb(66, 66, 108);
+    color: #ece6e6;
     padding: 15px 10px;
     cursor: pointer;
 }
