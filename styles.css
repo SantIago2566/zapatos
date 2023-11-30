@@ -151,7 +151,7 @@ header{
 }
 
 .item:hover{
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 10px 20px rgba(40, 38, 38, 0.782);
 }
 
 .item img{
@@ -167,7 +167,7 @@ header{
 }
 
 .item:hover img{
-    transform: scale(1.2);
+    transform: scale(1.2s);
 }
 
 .info-product{
@@ -187,7 +187,7 @@ header{
     border: none;
     background: none;
     background-color: rgb(66, 66, 108);
-    color: #ece6e6;
+    color: #3d051f;
     padding: 15px 10px;
     cursor: pointer;
 }
