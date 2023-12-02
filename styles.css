@@ -193,17 +193,3 @@ header{
 }
  
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.atencion.html{
-    width: 100px;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: sans-serif;
-}
-
