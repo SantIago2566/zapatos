@@ -191,7 +191,51 @@ header{
     padding: 15px 10px;
     cursor: pointer;
 }
+ 
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.atencion.html{
+    width: 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
 
+.contenerdor{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
 
+.card{
+width: 100%;
+margin: 20px;
+border-radius: 6px;
+overflow: hidden;
+background: #fff;
+box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+cursor: default;
+transition: all 400ms ease;
+}
 
+.card:hover{
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3%);
+}
+
+.card img{
+    width: 100%;
+    height: 50%;
+}
+
+.card .contenido{
+padding: 15%;
+text-align: center;
+
+}
